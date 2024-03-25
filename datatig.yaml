@@ -1,5 +1,4 @@
-# TOUSE: Replace with the title of your group
-title: Event Website template
+title: Edinburgh Coop Meetup
 githost:
     # TOUSE: Replace url with the GitHub repository. If not using GitHub, delete the githost block.
     url: jarofgreen/event-website-template
