@@ -1,7 +1,6 @@
 title: Edinburgh Coop Meetup
-# TOUSE: Replace url and baseurl with your site address
-url: https://jarofgreen.github.io
-baseurl: /event-website-template
+url: https://edinburgh-coop-meetup.github.io
+baseurl:
 
 collections:
   event:
