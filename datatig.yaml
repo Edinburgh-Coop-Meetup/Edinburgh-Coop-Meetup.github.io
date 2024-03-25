@@ -1,7 +1,6 @@
 title: Edinburgh Coop Meetup
 githost:
-    # TOUSE: Replace url with the GitHub repository. If not using GitHub, delete the githost block.
-    url: jarofgreen/event-website-template
+    url: Edinburgh-Coop-Meetup/Edinburgh-Coop-Meetup.github.io
     primary_branch: main
 types:
 - id: event
