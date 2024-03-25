@@ -14,7 +14,11 @@
                     </a>
                 </h4>
                 <div>
-                    {{ event.content | strip_html | truncatewords: 50 }}
+                    {% if event.description %}
+                        {{ event.description }}
+                    {% else %}
+                        {{ event.content | strip_html | truncatewords: 50 }}
+                    {% endif %}
                 </div>
             </div>
         {% endif %}

@@ -9,7 +9,11 @@
             </a>
         </h4>
         <div>
-            {{ post.content | strip_html | truncatewords: 50 }}
+            {% if post.description %}
+                {{ post.description }}
+            {% else %}
+                {{ post.content | strip_html | truncatewords: 50 }}
+            {% endif %}
         </div>
     </div>
 {% endfor %}

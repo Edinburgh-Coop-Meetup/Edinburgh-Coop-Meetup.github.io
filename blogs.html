@@ -15,7 +15,11 @@ title: Blogs
             </a>
         </h3>
         <div>
-            {{ post.content | strip_html | truncatewords: 100 }}
+            {% if post.description %}
+                {{ post.description }}
+            {% else %}
+                {{ post.content | strip_html | truncatewords: 50 }}
+            {% endif %}
         </div>
     </div>
 {% endfor %}
