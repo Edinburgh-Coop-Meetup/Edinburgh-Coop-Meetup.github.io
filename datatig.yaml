@@ -64,3 +64,11 @@ types:
     - id: content
       key: content
       title: Content
+calendars:
+  main:
+    datas:
+      - type: event
+        summary: title
+        start: start
+        end: end
+        id: "event_ID@example.com"
