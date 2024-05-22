@@ -71,4 +71,4 @@ calendars:
         summary: title
         start: start
         end: end
-        id: "event_ID@example.com"
+        id: "event_{{record_id}}@example.com"
