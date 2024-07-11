@@ -20,6 +20,7 @@ types:
     - id: content
       key: content
       title: Content
+      type: markdown
     - id: location
       key: location
       title: Location
@@ -66,6 +67,7 @@ types:
     - id: content
       key: content
       title: Content
+      type: markdown
 calendars:
   main:
     timezone: Europe/London
