@@ -48,6 +48,7 @@ types:
   - title
   - link_url
   default_format: md
+  markdown_body_is_field: ---
   fields:
     - id: title
       key: title
